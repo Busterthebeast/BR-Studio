@@ -9,3 +9,7 @@ build/
 *.log
 leads.csv
 cold-email/leads.csv
+cold-email/leads_scored.csv
+cold-email/send_log.csv
+__pycache__/
+*.pyc
