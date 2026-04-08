@@ -54,7 +54,7 @@ Efter leverans erbjuder du månadsavtal för uppdateringar, hosting och AI-tjän
 
 ## DEL 2 — VERKTYG (alla gratis)
 
-- Outscraper — hitta leads via Google Maps
+- Apollo.io — hitta leads via sök och filter
 - Apollo.io — 275M kontakter gratis
 - Waalaxy — LinkedIn-automation, 80/mån gratis
 - ManyChat — Instagram-automation gratis
@@ -98,7 +98,7 @@ Regler: Börja aldrig med "Jag". En CTA. Inga spamord.
 
 | Process | Verktyg |
 |---------|---------|
-| Hitta leads | Outscraper |
+| Hitta leads | Apollo.io |
 | Skicka cold email | Python + Gmail (40/dag) |
 | Uppföljningar dag 3, 7, 10 | Python-skript |
 | LinkedIn-förfrågningar | Waalaxy (80/mån) |
@@ -109,7 +109,7 @@ Regler: Börja aldrig med "Jag". En CTA. Inga spamord.
 ## DEL 5 — DAGSCHEMA
 
 **Onsdag:** Skapa konton, uppdatera LinkedIn
-**Torsdag:** Scrapa 200+ leads per bransch i Outscraper
+**Torsdag:** Scrapa 200+ leads per bransch i Apollo.io
 **Fredag:** CC bygger alla Python-skript
 **Lördag:** Sätt upp Gmail app-lösenord, testa skripten, bygg landningssida
 **Söndag:** Go live — kör första 40 mejlen

@@ -48,8 +48,7 @@ BR Studio är en svensk webbutvecklingsbyrå driven av Buster (17 år, gymnasiee
 - **Chatbase** — för AI-chatbot upsell. Tränas på kundens FAQ, produkter, kontaktinfo.
 
 ### Lead Generation (Fas 1 — gratis)
-- **Outscraper** — scrapa leads (företagsnamn, mejl, telefon, bransch) från Google Maps och andra källor
-- **Apollo.io** — komplettera leads med LinkedIn-profiler, mejladresser, befattningar
+- **Apollo.io** — hitta och scrapa leads (företagsnamn, mejl, telefon, bransch, LinkedIn-profiler, befattningar)
 - **Waalaxy** — LinkedIn outreach, max 80 kontakter/mån på gratisplanen
 - **ManyChat** — Instagram DM-automation för inkommande leads
 - **Python + Gmail SMTP** — cold email-skript som skickar personaliserade mejl från Busters Gmail
@@ -69,7 +68,7 @@ BR Studio är en svensk webbutvecklingsbyrå driven av Buster (17 år, gymnasiee
 ## Försäljningsprocess
 
 ### Steg 1: Lead Scraping
-Outscraper + Apollo används för att hitta svenska småföretag med:
+Apollo.io används för att hitta svenska småföretag med:
 - Dålig eller obefintlig hemsida (kontrolleras manuellt eller med verktyg)
 - Aktiv verksamhet (Google Maps-recensioner, aktiv LinkedIn)
 - Rätt storlek: 1–10 anställda, lokal verksamhet
@@ -151,7 +150,7 @@ br-studio/
 ├── README.md
 ├── portfolio/             ← kod/assets för portföljsidan om den byggs i kod
 ├── cold-email/            ← Python-skript för cold email-automation
-│   ├── scraper.py         ← lead-scraping med Outscraper API
+│   ├── scraper.py         ← lead-scraping med Apollo.io API
 │   ├── emailer.py         ← Gmail SMTP-skript för utskick
 │   ├── leads.csv          ← leadlista (gitignored)
 │   └── templates/         ← mejlmallar
@@ -169,7 +168,7 @@ br-studio/
 
 1. **Portföljsida klar** — Carrd eller enkel HTML, live på en URL
 2. **Cold email-skript klart** — Python + Gmail, testat och redo att skicka
-3. **Leadlista: 50+ svenska småföretag** — scrapade med Outscraper
+3. **Leadlista: 50+ svenska småföretag** — scrapade med Apollo.io
 4. **Första utskick skickat** — minst 20 mejl dag 1 (onsdag 8 april 2026)
 5. **LinkedIn Waalaxy uppe** — 10+ connection requests skickade
 

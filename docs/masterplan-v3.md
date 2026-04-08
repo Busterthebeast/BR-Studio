@@ -33,8 +33,7 @@
 
 | Verktyg | Syfte | Kostnad |
 |---------|-------|---------|
-| Outscraper | Scrapa leads från Google Maps | 500 gratis, sen $3/1000 |
-| Apollo.io | Berika leads med kontaktinfo | Free tier (250 mejl/dag) |
+| Apollo.io | Hitta och scrapa leads + kontaktinfo | Free tier (250 mejl/dag) |
 | Waalaxy | LinkedIn-automation | 80 requests/mån gratis |
 | Gmail + Python SMTP | Cold email | 0 kr |
 | Framer | Bygga hemsidor | 0 kr (kunden betalar hosting ~105 kr/mån) |
@@ -58,18 +57,17 @@ Branscher rankade efter lägst digital mognad i Sverige:
 | 4 | **Frisörer & Salong** | Instagram-fokuserade, hemsida saknas eller är gammal |
 | 5 | **Butiker & Konsulter** | Varierande, selektiv targeting |
 
-### Lead Scraping med Outscraper
+### Lead Scraping med Apollo.io
 ```
-Söktermer per bransch:
-- "snickare Stockholm Sverige"
-- "elektriker Göteborg Sverige"
-- "restaurang Malmö Sverige"
-- "frisör Uppsala Sverige"
-- "städfirma Stockholm Sverige"
+Sökfilter per bransch:
+- Industry: Construction / Restaurants / Beauty / Retail / Consulting
+- Location: Stockholm / Göteborg / Malmö / Uppsala
+- Company Size: 1-10 anställda
+- Country: Sweden
 ```
 - Scrapa 50–80 leads per bransch
 - Totalt: 300–400 leads i vecka 1
-- Kosta: 0 kr (500 gratis records)
+- Kostnad: 0 kr (Apollo free tier)
 
 ### Lead-kvalificering (automatiserad)
 Varje lead får en score 0–100 baserad på:
@@ -159,7 +157,7 @@ Klassificering:
 ## DEL 5 — DAGSCHEMA
 
 **Onsdag (dag 1):** Skapa Gmail-konto för outreach, uppdatera LinkedIn-profil
-**Torsdag:** Scrapa 200+ leads med Outscraper, kör process_leads.py
+**Torsdag:** Scrapa 200+ leads med Apollo.io, kör process_leads.py
 **Fredag:** Bygg alla Python-skript klart, testa dry-run
 **Lördag:** Sätt upp Gmail app-lösenord, bygg landningssida, Waalaxy-setup
 **Söndag:** Go live — kör första 5–10 mejlen (uppvärmning)
